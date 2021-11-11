@@ -2,6 +2,7 @@ import React from "react";
 import "./display.scss";
 
 function Display() {
+
   return (
     <div className="output">
       <div className="line-wrapper">
