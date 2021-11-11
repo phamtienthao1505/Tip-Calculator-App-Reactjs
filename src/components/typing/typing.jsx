@@ -1,5 +1,7 @@
 import React from "react";
 import "./typing.scss";
+import icon_person from "../../assets/icons/icon-person.svg"
+import icon_dollar from "../../assets/icons/icon-dollar.svg"
 
 function Typing() {
   return (
@@ -16,7 +18,7 @@ function Typing() {
             id="inp-bill"
             placeholder={0.0}
           />
-          <img src="./assets/icons/icon-dollar.svg" alt="dollar-icon" />
+          <img src={icon_dollar} alt="dollar-icon" />
         </div>
       </div>
       <div className="tip-container">
@@ -51,7 +53,7 @@ function Typing() {
             id="inp-people"
             placeholder={1}
           />
-          <img src="./assets/icons/icon-person.svg" alt="person-icon" />
+          <img src={icon_person} alt="person-icon" />
         </div>
       </div>
     </div>
